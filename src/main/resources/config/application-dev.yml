@@ -34,9 +34,9 @@ spring:
         serialization.indent_output: true
     datasource:
         type: com.zaxxer.hikari.HikariDataSource
-        url: jdbc:postgresql://localhost:5432/MeetingAdm
-        username: MeetingAdm
-        password:
+        url: jdbc:postgresql://localhost:5432/sis_commerce
+        username: user_connect
+        password: user00_pw_cn
     jpa:
         database-platform: io.github.jhipster.domain.util.FixedPostgreSQL82Dialect
         database: POSTGRESQL
